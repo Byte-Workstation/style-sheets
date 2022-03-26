@@ -1,17 +1,16 @@
 html.dark {
     // 修一下黑暗主题默认的前景色......
-    --c-text: #bdccdb;
-    --c-text-light: #aabdce;
-    --c-text-lighter: #afc3d6;
-    --c-text-lightest: #c4d6e9;
-
+    --c-text: #cedede;
+    --c-text-light: #dceded;
+    --c-text-lighter: #deeeee;
+    --c-text-lightest: #dfefef;
 }
 
 //再修一下顶栏的样式......
 .navbar{
     border: none;
     background-color: #3eaf7c04;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(16px);
     padding-left: 4rem;
 }
 
