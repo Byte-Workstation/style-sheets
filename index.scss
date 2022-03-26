@@ -1,0 +1,43 @@
+html.dark {
+    // 修一下黑暗主题默认的前景色......
+    --c-text: #bdccdb;
+    --c-text-light: #aabdce;
+    --c-text-lighter: #afc3d6;
+    --c-text-lightest: #c4d6e9;
+
+}
+
+//再修一下顶栏的样式......
+.navbar{
+    border: none;
+    background-color: #3eaf7c04;
+    backdrop-filter: blur(20px);
+    padding-left: 4rem;
+}
+
+//把Mobile模式下的侧边栏按钮搞出来
+.toggle-sidebar-button {
+    display: block;
+}
+
+//侧边栏和页面的动画
+.sidebar{
+    border: none;
+    transform: translateX(-100%);
+}
+.sidebar-open .sidebar{
+    transform: translateX(0)
+}
+.page{
+    min-width: 480px;
+    transition: all var(--t-transform), background-color var(--t-color);
+    padding-left: 0em;
+}
+.sidebar-open .page{
+    padding-left: var(--sidebar-width);
+}
+
+//内容宽度调整
+:root{
+    --content-width: 800px;
+}
