@@ -1,4 +1,4 @@
-# vuepress-default-theme-fix-scss
+# Vuepress Default Theme Fix SCSS
 
 ......
 
