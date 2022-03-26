@@ -1,6 +1,6 @@
 # Vuepress Default Theme Fix SCSS
 
-（此scss样式表对应vuepress版本2.x）
+（此scss样式表对应vuepress版本2.x，不过版本不同也可以试一试）
 
 ......
 
@@ -12,7 +12,7 @@
 
 > 自己开发一个vuepress主题又显得太过繁琐
 
-于是就有了这张针对**阅读体验**优化的scss样式表
+于是就有了这张针对**阅读体验**优化默认主题的scss样式表
 
 ## 修改内容
 
