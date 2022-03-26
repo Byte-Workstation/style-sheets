@@ -1,5 +1,7 @@
 # Vuepress Default Theme Fix SCSS
 
+（此scss样式表对应vuepress版本2.x）
+
 ......
 
 > vuepress是一个很优秀的静态网站生成器
