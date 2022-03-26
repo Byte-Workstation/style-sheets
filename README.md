@@ -26,4 +26,4 @@
 ## 使用方法
 - 下载
 - 把index.scss丢到项目中的.vuepress/styles文件夹中
-- dev一下看看喜不喜欢
+- `dev`一下看看喜不喜欢
