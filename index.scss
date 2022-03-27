@@ -13,6 +13,9 @@ html.dark {
     backdrop-filter: blur(16px);
     padding-left: 4rem;
 }
+.sidebar-open .navbar{
+    background-color: var(--c-bg-sidebar);
+}
 
 /* 把Mobile模式下的侧边栏按钮搞出来 */
 .toggle-sidebar-button {
