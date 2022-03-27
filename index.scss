@@ -28,15 +28,21 @@ html.dark {
     transform: translateX(0)
 }
 .page{
-    min-width: 480px;
     transition: all var(--t-transform), background-color var(--t-color);
     padding-left: 0em;
 }
-.sidebar-open .page{
-    padding-left: var(--sidebar-width);
+@media (min-width: 70em) {
+    .sidebar-open .page{
+        padding-left: var(--sidebar-width);
+    }
+}
+@media (max-width: 70em) {
+    .sidebar-open .page{
+        filter: blur(5px);
+    }
 }
 
 //内容宽度调整
 :root{
-    --content-width: 800px;
+    --content-width: 50em;
 }
