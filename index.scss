@@ -1,12 +1,12 @@
 html.dark {
-    // 修一下黑暗主题默认的前景色......
+    /* 修一下黑暗主题默认的前景色...... */
     --c-text: #cedede;
     --c-text-light: #dceded;
     --c-text-lighter: #deeeee;
     --c-text-lightest: #dfefef;
 }
 
-//再修一下顶栏的样式......
+/* 再修一下顶栏的样式...... */
 .navbar{
     border: none;
     background-color: #3eaf7c04;
@@ -14,12 +14,12 @@ html.dark {
     padding-left: 4rem;
 }
 
-//把Mobile模式下的侧边栏按钮搞出来
+/* 把Mobile模式下的侧边栏按钮搞出来 */
 .toggle-sidebar-button {
     display: block;
 }
 
-//侧边栏和页面的动画
+/* 侧边栏和页面的动画 */
 .sidebar{
     border: none;
     transform: translateX(-100%);
@@ -42,7 +42,7 @@ html.dark {
     }
 }
 
-//内容宽度调整
+/* 内容宽度调整 */
 :root{
     --content-width: 50em;
 }
