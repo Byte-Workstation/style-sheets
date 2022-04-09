@@ -26,13 +26,6 @@ html.dark {
 }
 
 /* 侧边栏和页面的动画 */
-.sidebar{
-    border: none;
-    transform: translateX(-100%);
-}
-.sidebar-open .sidebar{
-    transform: translateX(0)
-}
 .sidebar .navbar-items{
     border: none;
 }
@@ -46,6 +39,12 @@ html.dark {
     }
 }
 @media (min-width: 719px /* $MQMobile */){
+    .sidebar{
+        transform: translateX(-100%);
+    }
+    .sidebar-open .sidebar{
+        transform: translateX(0);
+    }
     .no-sidebar .toggle-sidebar-button{
         opacity: 0;
         pointer-events: none;
