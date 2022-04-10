@@ -1,26 +1,6 @@
-/* 字体和内容宽度 */
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;750");
-
-@font-face {
-    font-family: "Resource Han Rounded";
-    src: url(./fonts/RHR.ttf);
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "Resource Han Rounded";
-    src: url(./fonts/RHR-Bold.ttf);
-    font-weight: bold;
-}
-
-:root{
-    --font-family: Nunito, "Resource Han Rounded";
-    --content-width: 800px;
-}
-
 html.dark {
     /* 修一下黑暗主题默认的前景色...... */
-    --c-brand: #00cc77;
+    --c-brand: #4abf8a;
     --c-text: #cedede;
     --c-text-light: #dceded;
     --c-text-lighter: #deeeee;
@@ -39,24 +19,11 @@ html.dark {
 .sidebar-open .navbar{
     background-color: var(--c-bg-navbar);
 }
-.navbar-items{
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-.navbar-items::-webkit-scrollbar{
-    width: 2px;
-    height: 2px;
-    background-color: transparent;
-}
-.navbar-items::-webkit-scrollbar-thumb{
-    background-color: var(--c-text);
-}
 
 /* 把Mobile模式下的侧边栏按钮搞出来 */
 .toggle-sidebar-button {
     transition: all var(--t-transform);
     display: block;
-    top: 0.48rem;
 }
 
 /* 侧边栏和页面的动画 */
@@ -94,3 +61,7 @@ html.dark {
     }
 }
 
+/* 内容宽度 */
+:root{
+    --content-width: 800px;
+}
