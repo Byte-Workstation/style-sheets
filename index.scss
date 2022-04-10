@@ -1,6 +1,6 @@
 /* 字体和内容宽度 */
-@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@550;800);
-@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;750");
+@import url("https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css");
 
 @font-face {
     font-family: "Resource Han Rounded";
@@ -15,9 +15,9 @@
 }
 
 :root{
-    --content-width: 800px;
     --font-family: Nunito, "Resource Han Rounded";
-    --font-family-code: "Fira Code"
+    --font-family-code: "Fira Code";
+    --content-width: 800px;
 }
 
 html.dark {
