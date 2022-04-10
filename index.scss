@@ -1,5 +1,28 @@
+/* 字体和内容宽度 */
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@550;800);
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+@font-face {
+    font-family: "Resource Han Rounded";
+    src: url(./fonts/RHR.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Resource Han Rounded";
+    src: url(./fonts/RHR-Bold.ttf);
+    font-weight: bold;
+}
+
+:root{
+    --content-width: 800px;
+    --font-family: Nunito, "Resource Han Rounded";
+    --font-family-code: "Fira Code"
+}
+
 html.dark {
     /* 修一下黑暗主题默认的前景色...... */
+    --c-brand: #00cc77;
     --c-text: #cedede;
     --c-text-light: #dceded;
     --c-text-lighter: #deeeee;
@@ -30,6 +53,7 @@ html.dark {
     border: none;
 }
 .page{
+    font-size: 17px;
     transition: all var(--t-transform), background-color var(--t-color);
     padding-left: 0em;
 }
@@ -57,10 +81,5 @@ html.dark {
     .sidebar-open .page{
         filter: blur(5px);
     }
-}
-
-/* 内容宽度调整 */
-:root{
-    --content-width: 50em;
 }
 
