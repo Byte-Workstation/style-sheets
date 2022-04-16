@@ -11,7 +11,7 @@ html.dark {
 .navbar{
     border: none;
     background-color: transparent;
-    box-shadow:inset 0px 0px 50px 5px var(--c-bg-navbar);
+    box-shadow:inset 0px 0px 100px var(--c-bg-navbar);
     backdrop-filter: blur(15px);
     padding-left: 4rem;
     transition: all var(--t-transform);
@@ -57,11 +57,13 @@ html.dark {
 }
 @media (max-width: 70em) {
     .sidebar-open .page{
-        filter: blur(5px);
+        filter: opacity(25%);
     }
 }
 
 /* 内容宽度 */
-:root{
-    --content-width: 800px;
+@media (min-width: 70em) {
+    :root{
+        --content-width: 55vw;
+    }
 }
