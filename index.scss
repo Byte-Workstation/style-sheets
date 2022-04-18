@@ -13,6 +13,7 @@ html.dark {
     background-color: transparent;
     box-shadow:inset 0px 0px 100px var(--c-bg-navbar);
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     padding-left: 4rem;
     transition: all var(--t-transform);
 }
