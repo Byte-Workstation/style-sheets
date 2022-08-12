@@ -1,2 +1,4 @@
- - index.scss : for vuepress 2.x default theme (.vuepress/style)
- - variables.css : for mdbook default theme (theme/css)
+ - index.scss : for vuepress 2.x default theme 
+   (place into .vuepress/style/)
+ - variables.css : for mdbook default theme 
+   (place into theme/css/)
